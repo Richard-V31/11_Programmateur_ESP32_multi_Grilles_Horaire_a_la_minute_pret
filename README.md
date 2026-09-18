@@ -73,7 +73,7 @@ C'est ici que se déclarent les relais. Une ligne = un relais :
 Programmateur programmateurs[] = {
   { "1.", "Programmation 1", "Cuisine",  "#f59e0b", 32, "06:30-08:00,11:30-13:15,18:45-22:30", true, false, 14 },
   { "2.", "Programmation 2", "Portail",  "#06b6d4", 33, "07:00-09:00,17:00-19:30",            true, false, 16 },
-  { "3.", "Programmation 3", "Relais 3", "#0CE892", 25, "0",                                 true, false, 17 }, //Pas de programmation
+  { "3.", "Programmation 3", "Relais 3", "#0CE892", 25, "",                                 true, false, 17 }, //Pas de programmation
   { "4.", "Programmation 4", "Relais 4", "#ef4444", 26, "22:45-06:15",                        true, false, 18 },
 };
 ```
