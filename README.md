@@ -122,7 +122,7 @@ Un appui sur les horaires affichés pour un relais ouvre une fenêtre d'édition
 La route `/save` accepte un texte de plages, pratique en script ou en `curl` :
 
 ```bash
-curl -X POST "http://richardv.local/save?id=1." -d "plages=06:30-08:00,18:45-22:30"
+curl -X POST "http://richardv.local/save?id=1" -d "plages=06:30-08:00,18:45-22:30"
 ```
 
 Envoyer `plages=` (valeur vide) efface toutes les plages du relais.
