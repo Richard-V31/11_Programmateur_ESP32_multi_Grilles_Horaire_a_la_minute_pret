@@ -147,10 +147,10 @@ L'écran (128×64 px, ~21 caractères par ligne en taille de police par défaut)
 Chaque ligne relais tient sur les 21 caractères de large, et prend la forme :
 
 ```
-1.A 08:00>11:30-13:15
+1 A 08:00>11:30-13:15
 ```
 
-- **L'identifiant du relais** (`1.`) est affiché en **vidéo inverse** (fond blanc, texte noir) quand le relais est **actif (ON)**, et en texte normal quand il est **OFF** — il n'y a donc plus besoin d'écrire le mot "ON"/"OFF" en toutes lettres, ce qui libère de la place pour les horaires.
+- **L'identifiant du relais** (`1`) est affiché en **vidéo inverse** (fond blanc, texte noir) quand le relais est **actif (ON)**, et en texte normal quand il est **OFF** — il n'y a donc plus besoin d'écrire le mot "ON"/"OFF" en toutes lettres, ce qui libère de la place pour les horaires.
 - **La lettre de mode** : `A` pour Automatique, `M` pour Manuel.
 - **Les horaires**, uniquement en mode automatique (rien n'est affiché ici en mode manuel, puisqu'aucun horaire ne s'applique) :
   - si le relais est **actuellement actif** : `HEURE_FIN>DEBUT-FIN` — l'heure à laquelle il va s'éteindre, puis la plage suivante en entier. Exemple : `08:00>11:30-13:15` signifie "s'éteint à 08:00, puis la prochaine plage va de 11:30 à 13:15".
