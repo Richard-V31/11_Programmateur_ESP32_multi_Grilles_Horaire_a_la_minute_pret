@@ -1,6 +1,6 @@
 <h1 align="center"> Programmateur horaire ESP32 — N relais </h1> 
 
-<h2 align="center">interface web, écran OLED, OTA et Programmation a la minute pret</h2>
+<h2 align="center">interface web, écran OLED, OTA et Programmation à la minute prêt</h2>
 
 ![Platform](https://img.shields.io/badge/Platform-ESP32-green)
 ![Framework](https://img.shields.io/badge/Framework-Arduino-blue)
