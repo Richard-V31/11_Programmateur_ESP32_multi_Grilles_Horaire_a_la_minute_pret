@@ -1,4 +1,9 @@
-# Programmateur horaire ESP32 — N relais, interface web, écran OLED, OTA
+# Programmateur horaire ESP32 — N relais<br># interface web, écran OLED, OTA
+
+![Platform](https://img.shields.io/badge/Platform-ESP32-green)
+![Framework](https://img.shields.io/badge/Framework-Arduino-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![Release](https://img.shields.io/badge/Release-v1.0.OTA-orange)
 
 Ce programme transforme un **ESP32** en programmateur horaire connecté, capable de piloter un nombre **configurable** de relais indépendants (4 par défaut, extensible sans toucher au code). Chaque relais peut fonctionner en mode **AUTOMATIQUE** (jusqu'à 6 plages horaires librement réglables, à la minute près) ou en mode **MANUEL** (forçage ON/OFF par l'utilisateur, depuis la page web ou un bouton poussoir physique).
 
